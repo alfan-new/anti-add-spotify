@@ -1,0 +1,6 @@
+{
+  "name": "Spotify Launcher",
+  "description": "Aplikasi launcher native untuk membuka Spotify Web dalam mode fullscreen via browser dengan aksen hijau Spotify.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

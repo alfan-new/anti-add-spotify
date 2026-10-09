@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Spotify Launcher</string>
+    <string name="btn_open_spotify">Buka Spotify</string>
+    <string name="subtitle">Putar musik favoritmu tanpa batasan</string>
+    <string name="spotify_url">https://open.spotify.com/</string>
+    <string name="fullscreen_mode_desc">Mode Fullscreen Standalone</string>
+</resources>
