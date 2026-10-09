@@ -1,18 +1,43 @@
+# Android & Gradle Build Artifacts
 *.iml
 .gradle
 .kotlin
-/local.properties
+build/
+app/build/
+/build
+/captures
+.externalNativeBuild
+.cxx
+
+# IDE & OS Files
+.DS_Store
+Thumbs.db
+.idea/
 /.idea/caches
 /.idea/libraries
 /.idea/modules.xml
 /.idea/workspace.xml
 /.idea/navEditor.xml
 /.idea/assetWizardSettings.xml
-.DS_Store
-/build
-/captures
-.externalNativeBuild
-.cxx
+
+# Local Configuration & Sensitive Credentials
 local.properties
+/local.properties
 .env
+.env.local
+.env.*.local
+secrets.properties
+google-services.json
+
+# Keystores & Signing Keys (CRITICAL: Never commit to public repos)
+*.jks
+*.keystore
 debug.keystore
+debug.keystore.base64
+my-upload-key.jks
+
+# Binary Output & Archives
+*.apk
+*.aab
+*.zip
+.build-outputs/
